@@ -139,7 +139,7 @@ body {
     padding-top: 20vh;
     box-sizing: border-box;
     padding: 10%;
-    background-image: url("../images/placeholderimage.jpg");
+    background-image: url("images/placeholderimage.jpg");
     background-size: cover;
 }
 
