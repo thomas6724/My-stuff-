@@ -187,7 +187,7 @@ h4 {
     height: 100vh;
     top: 0;
     left: 0;
-    background-image: url("images/Capture.PNG");
+    background-image: url("/images/Capture.PNG");
     background-size: cover;
     position: absolute;
     z-index: -2;
@@ -218,7 +218,7 @@ a:visited {
     height: 100vh;
     top: 0;
     left: 0;
-    background-image: url("images/placeholderimage1.jpg");
+    background-image: url("/images/placeholderimage1.jpg");
     background-size: cover;
     position: absolute;
     z-index: -2;
@@ -229,7 +229,7 @@ a:visited {
     content: "";
     width: 80vw;
     height: 44vh;
-    background-image: url("images/wrapper.PNG");
+    background-image: url("/images/wrapper.PNG");
     background-size: contain;
     top: 0;
     left: 0;
@@ -243,7 +243,7 @@ a:visited {
     height: 100vh;
     top: 0;
     left: 0;
-    background-image: url("images/placeholderimage.jpg");
+    background-image: url("/images/placeholderimage.jpg");
     background-size: cover;
     position: absolute;
     z-index: -2;
@@ -254,7 +254,7 @@ a:visited {
     content: "";
     width: 80vw;
     height: 45vh;
-    background-image: url("images/wrapper1.PNG");
+    background-image: url("/images/wrapper1.PNG");
     background-size: contain;
     top: 0;
     left: 0;
@@ -267,7 +267,7 @@ a:visited {
     height: 26vh;
     padding-top: 20vh;
     top: 0;
-    background-image: url("images/test%20regular%20wrapper.png");
+    background-image: url("/images/test%20regular%20wrapper.png");
     background-size: cover;
     z-index: 2;
     position: relative;
@@ -278,7 +278,7 @@ a:visited {
     height: 30vh;
     padding-top: 20vh;
     top: 0;
-    background-image: url("images/Capture.PNG");
+    background-image: url("/images/Capture.PNG");
     background-size: cover;
     z-index: 2;
     position: relative;
