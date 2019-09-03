@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Polar Ice Caps</title>
+    <link rel="stylesheet" href="../css/references.css">
+    <script src="https://kit.fontawesome.com/0e19e0c600.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                    <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                    <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+                </svg>
+            </a>
+        </span>
+
+
+    </nav>
+    <div class="logo">
+        <ul class="navbar-nav">
+            <a href="index.html"><img border="0" alt="home" src="../images/logo.PNG" width="100" height="50"></a>
+        </ul>
+    </div>
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()"> MENU &times;</a>
+        <!--Links Will be images-->
+        <a href="sea-level.html"><img border="0" alt="home" src="../images/rising-sea-lvl-nav-link.PNG" width="250" height="300"></a>
+        <a href="eco-system.html"><img border="0" alt="home" src="../images/eco-system-nav-link.PNG" width="250" height="300"></a>
+    </div>
+
+    <div class="search-bar">
+        <input type="text" name="" class="search-txt" placeholder="Search..." />
+        <a class="search-btn">
+            <i class="fas fa-search"></i>
+        </a>
+    </div>
+
+    <div id="main">
+        <h1>References</h1>
+        <p>
+        https://www.youtube.com/watch?v=uyaV_EWWRmo&t=536s<br>
+        https://www.youtube.com/watch?v=ln5BWnYMSQA<br>
+        https://www.youtube.com/watch?v=v1PeTDrw6OY&t=102s<br>
+        https://www.youtube.com/watch?v=oRbLowjKVzI&t=328s<br>
+        https://www.youtube.com/watch?v=HRc7_q95vPk&t=222s<br>
+        https://www.youtube.com/watch?v=yGqDZVri-tg&t=240s<br>
+        https://github.com/scroll-out/scroll-out<br>
+        https://keithclark.co.uk/articles/pure-css-parallax-websites/<br>
+        https://www.pexels.com/de-de/foto/blau-eis-eisberg-gefroren-417035/<br>
+        https://commons.wikimedia.org/wiki/File:Iceberg!_(8371340296).jpg<br>
+        
+        
+        
+        </p>
+    </div>
+
+    <script>
+        function openSlideMenu() {
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('main').style.marginLeft = '250px';
+        }
+
+        function closeSlideMenu() {
+            document.getElementById('side-menu').style.width = '0';
+            document.getElementById('main').style.marginLeft = '0';
+        }
+    </script>
+</body></html>
