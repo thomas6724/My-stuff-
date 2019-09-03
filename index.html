@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Polar Ice Caps</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/0e19e0c600.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                    <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                    <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+                </svg>
+            </a>
+        </span>
+
+
+    </nav>
+    <div class="logo">
+        <ul class="navbar-nav">
+            <a href="index.html"><img border="0" alt="home" src="../images/logo.PNG" width="100" height="50"></a>
+        </ul>
+    </div>
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()"> MENU &times;</a>
+        <!--Links Will be images-->
+        <a href="sea-level.html"><img border="0" alt="home" src="../images/rising-sea-lvl-nav-link.PNG" width="250" height="300"></a>
+        <a href="eco-system.html"><img border="0" alt="home" src="../images/eco-system-nav-link.PNG" width="250" height="300"></a>
+    </div>
+
+    <div class="search-bar">
+        <input type="text" name="" class="search-txt" placeholder="Search..." />
+        <a class="search-btn">
+            <i class="fas fa-search"></i>
+        </a>
+    </div>
+
+    <div id="main">
+        <div class="parallex-wrapper">
+            <div class="parallex-wrapper-deep">
+
+            </div>
+            <div class="parallex-wrapper-base">
+                <div class="container">
+                    <div class="clip-text">
+                        <h1>HEAT</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="regular-wrapper"></div>
+
+        <div class="parallex-wrapper">
+            <div class="parallex-wrapper-deep1"></div>
+
+            <div class="parallex-wrapper-base1">
+                <a href="sea-level.html">
+                    <h4>Effects on rising sea levels</h4>
+                    <p></p>
+                </a>
+            </div>
+        </div>
+
+        <div class="regular-wrapper"></div>
+
+        <div class="parallex-wrapper">
+            <div class="parallex-wrapper-deep2"></div>
+
+            <div class="parallex-wrapper-base2">
+                <a href="eco-system.html">
+                    <h4>Effects on eco-system</h4>
+
+                </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <li><a href="index.html" name="Home">
+                    <p>Home</p>
+                </a>
+                <a href="sea-level.html" name="Home">
+                <p>Rising sea levels</p></a>
+                <a href="eco-system.html" name="Home">
+                <p>Effects on eco-system</p></a>
+                <a href="references.html" name="Home">
+                <p>References</p></a>
+            </li>
+        </div>
+    </div>
+
+    <script>
+        function openSlideMenu() {
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('main').style.marginLeft = '250px';
+        }
+
+        function closeSlideMenu() {
+            document.getElementById('side-menu').style.width = '0';
+            document.getElementById('main').style.marginLeft = '0';
+        }
+    </script>
+</body></html>
